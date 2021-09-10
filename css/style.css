@@ -103,6 +103,10 @@ ul, ol {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
+@media only screen and (max-width: 320px){
+
+  
+}
 
 .primary-btn:hover, .primary-btn:focus {
   opacity: 0.9;
@@ -505,7 +509,6 @@ textarea.input {
 .header-ctn>div+div {
   margin-left: 15px;
 }
-
 .header-ctn>div>a {
   display: block;
   position: relative;
@@ -513,6 +516,17 @@ textarea.input {
   text-align: center;
   color: #FFF;
 }
+
+@media only screen and (max-width:320px){
+  .header-ctn>div>a {
+    display: block;
+    position: relative;
+    width: 70px;
+    text-align: center;
+    color: #FFF;
+  }
+}
+
 
 .header-ctn>div>a>i {
   display: block;
